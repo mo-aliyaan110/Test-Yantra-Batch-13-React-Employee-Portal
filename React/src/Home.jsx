@@ -1,9 +1,11 @@
 import React from 'react';
 import './styles/home.css';
+import Header from './components/header';
 
 const Home = () =>{
     return(
         <div>
+                <Header/>
                 <div id="parent">
                     <div className="secondchild">
                         <div className="containerr">
