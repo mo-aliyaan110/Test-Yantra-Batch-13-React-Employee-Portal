@@ -5,6 +5,7 @@ import Home from '../Home';
 import Login from '../Login';
 import HomeLogin from '../HomeLogin';
 import Employeedetails from '../Employeedetails';
+import Employeelist from '../Employeelist';
 
 
 const Routing = () =>{
@@ -16,6 +17,7 @@ const Routing = () =>{
             <Route exact path='/login' component={Login}></Route>
             <Route exact path='/HomeLogin' component={HomeLogin}></Route>
             <Route exact path='/employeedetails' component={Employeedetails}></Route>
+            <Route exact path='/employeelist' component={Employeelist}></Route>
             </BrowserRouter>
         </React.Fragment>
     

@@ -34,7 +34,7 @@ function Employeedetails() {
                         <Link class="nav-link active" aria-current="page" to="/HomeLogin">Home</Link>
                         </li>
                         <li class="nav-item">
-                        <Link class="nav-link active" aria-current="page" to="#">Employee List</Link>
+                        <Link class="nav-link active" aria-current="page" to="/employeelist">Employee List</Link>
                         </li>
                         <li class="nav-item">
                         <Link class="nav-link active" aria-current="page" to="/employeedetails">Employee Details</Link>
